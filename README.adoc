@@ -1,0 +1,8 @@
+= Check digit
+
+== Purpose
+Simple check-digit implementation: sum all digits of a number.
+
+Ex: For 3429, the digit sum is `3+4+2+9=18`. Then the check digit is `1+8=9`.
+
+

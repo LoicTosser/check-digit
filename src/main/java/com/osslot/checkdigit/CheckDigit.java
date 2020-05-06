@@ -4,8 +4,8 @@ package com.osslot.checkdigit;
 public class CheckDigit {
 
 
-    public static int checkDigit(String number) {
-        int sumDigits = sumDigits(Integer.parseInt(number));
+    public static int checkDigit(String numberAsString) {
+        int sumDigits = sumDigits(Integer.parseInt(numberAsString));
         return sumDigits < 10 ? sumDigits : checkDigit(Integer.toString(sumDigits));
     }
 
